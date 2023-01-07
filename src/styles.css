@@ -166,6 +166,7 @@ section.secondary {
 .img-responsive {
     width: 100%;
     display: block;
+    aspect-ratio: 1 /1;
 }
 
 .text-center {
@@ -192,3 +193,49 @@ section.secondary {
 .instagram-embeds {
     margin: 30px 0;
 }
+
+table {
+    margin:auto;
+    border:1px solid lightgrey;
+    text-align: left;
+   width:90%;
+    }
+
+    td {
+        border-top:1px solid lightgrey ;
+        text-align: left;
+        padding: 5px;
+        
+    }
+
+
+      @media(max-width:900px) {
+        .grid {
+            grid-template-columns: 1fr;
+            grid-gap: 32px;
+        }
+            header {
+                padding: 60px 0;
+            }
+        header h1{
+            font-size: 48px;
+        }
+        header h2 {
+            font-size: 20px;
+        }
+        header h3 {
+            font-size: 12px;
+        }
+        main h3 {
+            font-size: 18px;
+        }
+        .card-header img {
+            display: none;
+        }
+        .embed {
+            aspect-ratio: 16 / 9;
+        }
+        section {
+            padding: 30px;
+        }
+      }

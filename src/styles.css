@@ -99,7 +99,12 @@ main p {
     background: white;
     margin: 30px 0;
 }
-
+.card-body {
+    padding: 30px;
+}
+.card-footer {
+    padding: 0 30px 30px;
+}
 footer {
     color: white;
     background-image: linear-gradient( rgba(39, 32, 68, 0.9), rgba(39, 32, 68, 0.9) ), url(../images/university.jpg);
@@ -150,9 +155,14 @@ section.secondary {
 }
 
 .grid-3-columns {
-   grid-template-columns: 1fr 2fr 2fr; 
+   grid-template-columns: 1fr 1fr 1fr; 
 }
-
+.grid-3-columns-footer {
+    grid-template-columns: 1fr 2fr 2fr
+}
+.card-header.grid {
+    grid-gap: 0;
+}
 .img-responsive {
     width: 100%;
     display: block;
@@ -175,4 +185,10 @@ section.secondary {
     background-color: #462cb3;
     text-decoration: none;
 }
-
+.embed {
+    width: 100%;
+    aspect-ratio: 1 /1;
+}
+.instagram-embeds {
+    margin: 30px 0;
+}

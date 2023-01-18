@@ -1,6 +1,7 @@
 body {
     font-family: "Poppins", sans-serif;
     background: #272044;
+    max-width: 100%;
 }
 .container {
     max-width: 1400px;
@@ -211,6 +212,7 @@ table {
 
       @media(max-width:900px) {
         .grid {
+            
             grid-template-columns: 1fr;
             grid-gap: 32px;
         }
